@@ -17,7 +17,7 @@ body {
     padding-left: 10px;
 }
 
-h3 {
+.logo h3 {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -59,6 +59,8 @@ a {
 
 .left p {
     margin-top: -30px;
+    font-size: 18px;
+    color: #e5e7eb
 }
 .left button {
     background-color: #3882F6;
@@ -74,4 +76,16 @@ a {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
+}
+
+.middle h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    height: 200px;
+    width: auto;
+    border: 2px solid #1F2937;
+    box-shadow: 2px 4px 16px #1F2937;
 }
