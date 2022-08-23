@@ -78,6 +78,10 @@ a {
     border-radius: 4px;
 }
 
+.middle {
+    padding-bottom: 25px;
+}
+
 .middle h3 {
     text-align: center;
     padding: 20px;
@@ -113,3 +117,33 @@ a {
     font-size: larger;
     text-align: center;
 }
+
+.bottom {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+.bottom h2 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+.bottom p{
+    align-self: flex-end;
+    margin-top: -15px;
+    font-style: oblique;
+    font-weight: 900;
+}
+
